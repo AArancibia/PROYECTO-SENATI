@@ -10,16 +10,8 @@ export class AppComponent implements OnInit{
   activo: boolean = true;
 
   ngOnInit() {
-    this.loader();
-    $('.ui.dropdown')
-      .dropdown()
-    ;
+
   }
 
-  loader() {
-    setTimeout(() => {
-      this.activo = false;
-    }, 3000);
-  }
 
 }
