@@ -49,7 +49,7 @@ if (isMobile.matches) {
     $(".colhidden").toggleClass("displaynone");
 } else {
     $("body").niceScroll({
-        cursorcolor: "#3d3b3b",
+        cursorcolor: "#d9534f",
         cursorwidth: 5,
         cursorborderradius: 0,
         cursorborder: 0,
@@ -58,7 +58,7 @@ if (isMobile.matches) {
         zindex: 9999999
     });
     $(".sidebar").niceScroll({
-        cursorcolor: "#3d3b3b",
+        cursorcolor: "#d9534f",
         cursorwidth: 2,
         cursorborderradius: 0,
         cursorborder: 0,
