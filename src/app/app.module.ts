@@ -12,6 +12,7 @@ import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component
 import {RouterModule} from "@angular/router";
 import {APP_ROUTES} from "./app.route";
 import {PageModule} from "./pages/page.module";
+import {ServiceModule} from "./services/service.module";
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import {PageModule} from "./pages/page.module";
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PageModule
+    PageModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]

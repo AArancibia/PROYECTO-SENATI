@@ -8,6 +8,7 @@ import {MedicosComponent} from "./medicos/medicos.component";
 import {UsuariosComponent} from "./usuarios/usuarios.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {RouterModule} from "@angular/router";
+import { DetalleProductoComponent } from './dashboard/detalle-producto/detalle-producto.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {RouterModule} from "@angular/router";
     MedicosComponent,
     HeaderMenuComponent,
     SidebarComponent,
-    NopagefoundComponent
+    NopagefoundComponent,
+    DetalleProductoComponent
   ],
   exports: [
     PagesComponent
